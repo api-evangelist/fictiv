@@ -1,7 +1,13 @@
 aid: fictiv
 name: Fictiv
-description: 'Fictiv is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Fictiv is a digital manufacturing and supply chain platform that connects
+  engineering and hardware teams with a vetted global network of manufacturers to
+  source custom mechanical parts. It provides instant online quoting, automated design-for-manufacturability
+  (DFM) analysis, and end-to-end order visibility across CNC machining, injection
+  molding, 3D printing, sheet metal, urethane casting, and compression molding —
+  from rapid prototyping through full-scale production. Now part of MISUMI, Fictiv
+  operates a quote-to-order web platform at app.fictiv.com; it does not currently
+  publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/fictiv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,32 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.fictiv.com/wp-content/uploads/2025/03/fictiv.jpg
 tags:
 - Company
 - Hardware
+- Manufacturing
+- Digital Manufacturing
+- Supply Chain
+- CNC Machining
+- 3D Printing
+- Injection Molding
+- Sourcing
+- Prototyping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: http://www.fictiv.com
+- type: Blog
+  url: https://www.fictiv.com/articles
+- type: ChangeLog
+  url: https://www.fictiv.com/articles/fictiv-release-notes
+- type: Support
+  url: https://www.fictiv.com/help-center
+- type: GitHubOrganization
+  url: https://github.com/fictiv
+- type: SignUp
+  url: https://www.fictiv.com/signup
+- type: Login
+  url: https://app.fictiv.com/users/sign_in/
+- type: TermsOfService
+  url: https://www.fictiv.com/terms
+- type: PrivacyPolicy
+  url: https://www.fictiv.com/privacy
+- type: LLMsTxt
+  url: llms/fictiv-llms.txt
+- type: DomainSecurity
+  url: security/fictiv-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
